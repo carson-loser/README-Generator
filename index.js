@@ -7,13 +7,23 @@ const questions = [
   {
     type: 'input',
     name: 'title',
-    message: 'What would you like your title?'
+    message: 'What would you like your title to be?'
   },
 
   {
     type: 'input',
     name: 'description',
     message: 'What is the projects description?',
+  },
+
+  {
+    type: 'list',
+    name: 'TOC',
+    message: 'Would you like a table of contents?',
+    choices: [
+      'Table of Contents',
+      'None',
+    ]
   },
 
   {

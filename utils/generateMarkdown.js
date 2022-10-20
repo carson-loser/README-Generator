@@ -18,6 +18,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
   # ${data.description}
+  # ${data.TOC}
   ${renderLicenseBadge(data.license)}
 `;
 }
